@@ -7,11 +7,9 @@ Documentation is located [here](https://github.com/tko22/flask-boilerplate/wiki)
 
 ## Goal
 The goal of this boilerplate is to allow developers to quickly write their API with code structured to best practices while giving them flexibility to easily add/change features. Here are the problems this is trying to solve:
-1. **Flask is too flexible.** With Flask, you can write your application in any structure you like, even in one file. There are also a lot of different tutorials and guides providing different instructions to set up a Flask app with a database, confusing many newcomers. This Boilerplate's structure is inspired by Django's structure.
+1. **Flask is too flexible.** With Flask, you can write your application in any structure you like, even in one file. There are also a lot of different tutorials and guides providing different instructions & application structures to set up a Flask app with a database, confusing many newcomers about best practices.
 
 2. **Django and other Flask boilerplates are too heavy.** Sometimes, I don't need a fully featured admin portal with Redis and an Email manager nor do I need templates. Many APIs and applications require the use of a database though. Thus, I've chosen Postgres because it is a battle-tested and reliable database used in many companies and we know that 99% of applications can easily be designed to use relational databases (especially the ones used at Hack4Impact).
-
-3. **Other boilerplates don't provide enough instructions to setup everything.** This includes downloading and installing the databases, connecting them to Flask, etc.
 
 ## Docs
 Please Please **PLEASE** read the documentation if you don't understand something relevant to this boilerplate. Documentation is provided in the [wiki page](https://github.com/tko22/flask-boilerplate/wiki) of this repository.
